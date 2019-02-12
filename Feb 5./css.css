@@ -1,0 +1,5 @@
+body { margin-left: 10%; margin-top: 1em; margin-right: 10%; background: #ff90;
+} h1 { font-family: arrial, sans-serif; color: #6000; border-bottom: thin dotted
+black; } ul { li{ margin-top:1em; font-size: 1.25em; } } img { border: thin
+solid black } a{ text-decoration: no; } a:link, a:visited{ color: blue; } a:
+hover { color: white; text-decoration: underline; background: blue; } }

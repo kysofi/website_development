@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333333;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+      }
+
+      li a:hover {
+        background-color: #111111;
+      }
+      ul ul {
+        display: none;
+      }
+
+      ul li:hover ul {
+        display: block;
+      }
+
+      ul ul li a {
+        color: palevioletred;
+      }
+      p.web1 {
+        color: green;
+        background-color: yellow;
+        text-align: center;
+        font-size: x-small;
+      }
+      p.css1 {
+        color: purple;
+        background-color: palevioletred;
+        text-align: right;
+        font-size: 2em;
+      }
+      .web2 {
+        color: blue;
+        background-color: papayawhip;
+        text-align: center;
+        font-size: 13px;
+      }
+
+      #d123654 {
+        color: peru;
+        background-color: blueviolet;
+        text-align: left;
+        font-size: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="web2">HOME</h1>
+    <h2 id="d123654">Navigation Menu</h2>
+    <p class="web2">
+      In this example, we use CSS to style the list horizontally, to create a
+      navigation menu:
+    </p>
+    <p class="web1">American University in Bulgaria</p>
+    <p class="css1">Sofia Kurochkina</p>
+    <ul>
+      <li>
+        <a href="#home">Home</a>
+        <ul>
+          <li><a href="#news">News</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+  </body>
+</html>
