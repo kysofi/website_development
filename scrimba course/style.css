@@ -18,27 +18,29 @@ p {
     font-size: 18px;
 }
 
-.links {
-    margin-top: 40px;
-    margin-bottom: 0;
+a {
+    color: black;
+}
+
+.button {
+    display: inline-block;
+    background: #FFE600;
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+
+.button:hover {
+    background: orange;
 }
 
 .accent-color {
     color: #FFE600;
 }
 
-a:link, a:visited {
-    color: #FFE600;
-}
-
-a:focus {
-    color: aquamarine;
-}
-
-a:hover {
-    color: firebrick;
-}
-
-a:active {
-    color: plum;
+.links {
+    margin-top: 0;
+    margin-bottom: 0;
 }
